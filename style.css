@@ -1,19 +1,174 @@
-body, html {
-    margin: 0;
+body,
+html {
+  margin: 0;
 }
 .container {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-    flex: 1;
-    display: flex;
-    background-color: grey;
+  flex: 1;
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  color: white;
+  font-weight: bolder;
+  font-size: medium;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 4%;
+}
+
+.subHeader1 {
+  display: flex;
+  margin-bottom: 5rem;
+}
+.subHeader1 .subHeader1Left {
+  font-size: 18px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-left: 19rem;
+}
+
+.subHeader1 .subHeader1Right {
+  font-size: 18px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-right: 30rem;
+}
+
+.subHeader2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 4rem;
+  gap: 4rem;
+}
+ul {
+  display: flex;
+}
+
+li {
+  margin-right: 1rem;
+  list-style-type: none;
+  padding: 0;
 }
 
 .randomInfo {
-    flex: 1; 
-    display: flex;
-    background-color: aquamarine;
+  padding-top: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.squareImages {
+  display: flex;
+  margin-top: 2rem;
+  gap: 5rem;
+}
+
+.squareText {
+  display: flex;
+  gap: 5rem;
+  padding-bottom: 1rem;
+  font-family: roboto;
+}
+
+.squareText > div {
+  flex: 1;
+  width: 1rem;
+}
+
+.quotes {
+  background-color: #e5e7eb;
+  flex: 1;
+  padding: 10rem;
+  padding-left: 35rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.quotes > div {
+  width: 30rem;
+}
+
+.quotesName {
+  padding-top: 7.8rem;
+}
+
+.callToAction {
+  flex: 1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  text-decoration: none;
+}
+
+.callToAction > div {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #3882f6;
+  padding: 5rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  
+}
+
+.callToAction .buttonAction {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  margin-left: 2rem;
+}
+
+.callToAction .buttonAction a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #1f2937;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+  color: white;
+}
+.catImg {
+  height: 15rem;
+  width: 12rem;
+  margin-bottom: 0.5rem;
+}
+
+.textDesc {
+  font-size: 48px;
+  font-weight: bolder;
+  width: 80%;
 }
